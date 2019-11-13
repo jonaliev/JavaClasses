@@ -1,0 +1,52 @@
+package com.class7;
+
+public class WhileLoopPractice {
+	
+	public static void main(String[] args) {
+		
+		//how to print numbers from 1 to 20 
+		
+		int i=1;
+		
+		while(i<=20) {
+			System.out.print(i);
+			i++;
+			
+			
+		}
+		
+		//i want to print numbers from 10 to 30 all in 1 line 
+		int y=10;
+		
+		while(y<=30) {
+			System.out.println(y+" ");
+			y++;
+			
+		}
+		
+		//how to print 10 to 1;
+		int a=10;
+		
+		while(a<=1) {
+			System.out.println(a);
+			a--;
+			
+		 }
+		//print values from 50 to 20 
+		int b=50;
+		
+		while(b<=20) {
+			System.out.println(b);
+			b--;
+			
+			
+			
+			
+			
+		}
+		
+		
+		public static void 
+
+
+}

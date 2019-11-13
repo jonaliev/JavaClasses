@@ -1,0 +1,34 @@
+package com.class18;
+
+public class Task1 {
+
+	
+	void isLarger(int a, int b) {
+		
+		if (a>b) {
+		System.out.println("The number "+a +" is larger then number " +b);
+		
+		}else if (a<b) {
+			System.out.println("The number "+a +" is smaller then number " +b);
+			
+		}else if (a==b) {
+			System.out.println("The number "+a +" is equal to then number " +b);
+		}
+		
+	}
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+		Task1 obj=new Task1();
+		
+		obj.isLarger(6,8);
+		obj.isLarger(4,  4);
+		obj.isLarger(8, 2);
+
+	}
+
+}

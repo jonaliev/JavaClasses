@@ -1,0 +1,80 @@
+package com.class10;
+
+public class Task1 {
+	public static void main(String[] args) {
+		
+		char[] grade=new char[6];
+		grade[0]='A';
+		grade[1]='B';
+		grade[2]='C';
+		grade[3]='D';
+		grade[4]='E';
+		grade[5]='F';
+		
+		System.out.println(grade[1]);
+		
+		//way 2
+		
+		char [] grades={'A','B','C','D','E','F'};
+		System.out.println(grades[1]);
+		
+	
+		
+		
+		
+		
+		//task 2 
+		
+		String[] groupA1A = {"ilhom", "Ahmet", "Sophia", "", "Zane", "Asif", "Ihsan"};
+        System.out.println(groupA1A [0]);
+        
+        String[] A1A = new String[6];
+        A1A[0] = "ilhom";
+        A1A[1] = "Ahmet";
+        A1A[2] = "Sophia";
+        A1A[3] = "Zane";
+        A1A[4] = "Asif";
+        A1A[5] = "Ihsan";
+        
+        System.out.println(A1A[0]);
+        
+        
+        String[] classes=new String[5];
+        classes[0]="Java";
+        classes[1]="Saturday";
+        classes[2]="day";
+        classes[3]="coding";
+        classes[4]="is";
+        System.out.println(classes[1]+" "+classes[4]+" "+classes[0]+" "+classes[3]+" "+classes[2]);{
+        	
+        
+        }
+        
+double[] doub= {23.1,34.2,45.3,56.4,65.5};
+        
+        for (int i=0; i<doub.length; i++) {
+            System.out.print(doub[i]+" ");}
+        }
+                          
+        public static void main1(String[] args) {
+        	
+        }
+        String[] countries= {"USA", "Russia","Turkey","Tajikistan"};
+                
+                for(int i=0; i<countries.length; i++) {
+                    if(countries[i].equals("USA")) {
+	}                   System.out.println("Washington DC"); 
+	                }else if(countries[i].equals("Russia")) {
+                        System.out.println("Moscow");
+	                }else if(countries[i].equals("Turkey")) {
+	                    System.out.println("Ankara");
+}                   }else if(countries[i].equals("Tajikistan")) {
+                        System.out.println("Dushanbe");}
+                        
+                        
+}
+                        
+                        
+                        
+                        
+                        

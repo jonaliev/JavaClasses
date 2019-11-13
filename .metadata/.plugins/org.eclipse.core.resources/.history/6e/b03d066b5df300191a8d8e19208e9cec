@@ -1,0 +1,45 @@
+package com.class10;
+
+public class Task1 {
+	public static void main(String[] args) {
+		
+		char[] grade=new char[6];
+		grade[0]='A';
+		grade[1]='B';
+		grade[2]='C';
+		grade[3]='D';
+		grade[4]='E';
+		grade[5]='F';
+		
+		System.out.println(grade[1]);
+		
+		//way 2
+		
+		char [] grades={'A','B','C','D','E','F'};
+		System.out.println(grades[1]);
+		
+	
+		
+		
+		
+		
+		//task 2 
+		
+		String[] groupA1A = {"ilhom", "Ahmet", "Sophia", "", "Zane", "Asif", "Ihsan"};
+        System.out.println(groupA1A [6]);
+        
+        String[] A1A = new String[6];
+        A1A[0] = "ilhom";
+        A1A[1] = "Ahmet";
+        A1A[2] = "Sophia";
+        A1A[3] = "Zane";
+        A1A[4] = "Asif";
+        A1A[5] = "Ihsan";
+        
+        System.out.println(A1A[6]);
+	}
+	
+
+	
+	
+}
